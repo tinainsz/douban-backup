@@ -24,7 +24,7 @@ const DB_PROPERTIES = {
 const PropertyType = {
   POSTER: 'file',
   TITLE: 'title',
-  RATING: 'multi_select',
+  RATING: 'number',
   RATING_DATE: 'date',
   COMMENTS: 'rich_text',
   YEAR: 'number',
@@ -35,7 +35,7 @@ const PropertyType = {
   IMDB_LINK: 'url',
   RELEASE_DATE: 'date',
   MUSICIAN: 'rich_text',
-  PUBLICATION_DATE: 'date',
+  PUBLICATION_DATE: 'rich_text',
   PUBLISHING_HOUSE: 'rich_text',
   WRITER: 'rich_text',
   ISBN: 'number',
