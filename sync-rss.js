@@ -325,7 +325,7 @@ function getPropertyValye(value, type, key) {
         title: [
           {
             text: {
-              content: title,
+              content: value.toString(),
             },
           },
         ],
